@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<!--
+  CIVICA learning object — Learning with dyslexia and dyscalculia (alumni panel takeaways)
+  Author: Maria Uttenthal, Hertie School
+  Adapted to the CIVICA frame. The English text is the author's, unchanged.
+  The Spanish and German packs are DRAFT translations awaiting author sign-off.
+  Series: Event series on neurodiversity (sibling: learning with ADHD).
+-->
+<html lang="en" data-theme="light"
+      data-lo-id="civica-tl-learning-with-dyslexia-dyscalculia"
+      data-lo-author="Maria Uttenthal"
+      data-lo-institution="Hertie School"
+      data-lo-published="2026-08-24"
+      data-lo-languages="en,es,de"
+      data-lo-type="takeaway-picker"
+      data-lo-licence="CC-BY-NC-SA-4.0"
+      data-lo-topics="neurodiversity,dyslexia,dyscalculia,study-skills,wellbeing">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learning with dyslexia and dyscalculia — alumni panel takeaways | CIVICA</title>
+
+<!-- ===== CIVICA learning object metadata ==========================
+     Author / institution / date are the three fields the catalogue
+     indexes. Declared three times on purpose:
+       1. data-lo-* attributes on <html>  — cheap DOM read
+       2. <meta> tags                     — crawlers, social cards
+       3. JSON-LD LearningResource        — structured search + facets
+     Keep all three in sync when this object is updated.
+     ================================================================ -->
+<meta name="description" content="These take-aways come from an alumni panel on learning with dyslexia and dyscalculia — people who've lived it, sharing what actually helped them."/>
+<meta name="author" content="Maria Uttenthal"/>
+<meta name="theme-color" content="#244f9d"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Learning with dyslexia and dyscalculia"/>
+<meta property="og:description" content="These take-aways come from an alumni panel on learning with dyslexia and dyscalculia — people who've lived it, sharing what actually helped them."/>
+<meta property="og:site_name" content="Teaching and Learning with CIVICA"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  "name": "Learning with dyslexia and dyscalculia",
+  "description": "These take-aways come from an alumni panel on learning with dyslexia and dyscalculia — people who've lived it, sharing what actually helped them.",
+  "learningResourceType": "takeaway-picker",
+  "audience": { "@type": "EducationalAudience", "educationalRole": "student" },
+  "inLanguage": ["en", "es", "de"],
+  "datePublished": "2026-08-24",
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Maria Uttenthal",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "Hertie School" }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CIVICA – The European University of Social Sciences",
+    "url": "https://www.civica.eu/"
+  },
+  "isPartOf": [
+    { "@type": "Collection", "name": "Teaching and Learning with CIVICA" },
+    { "@type": "CreativeWorkSeries", "name": "Event series on neurodiversity" }
+  ],
+  "about": ["Dyslexia", "Dyscalculia", "Neurodiversity", "Study skills"],
+  "keywords": "dyslexia, dyscalculia, neurodiversity, neurodivergent students, study strategies, alumni panel"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,900&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* CIVICA corporate typeface — one family, four weights:
+     900 Black = eyebrows, h1   700 Bold = headings, text on a fill
+     600 SemiBold = captions    400 Regular = body copy */
+  --font-display:"Nunito Sans","Segoe UI",system-ui,sans-serif;
+
+  /* ---- CIVICA reference — PLATFORM CHROME ONLY ---- */
+  --civica-mark:#244f9d;
+  --civica-rule:rgba(36,79,157,.22);
+  --on-mark:#FFFFFF;
+
+  /* ---- The author's own palette (content system).
+     One change, light mode only, keeping the hue:
+       --ink-3   #7B7A90 → #6E6D83  (4.00 → 4.82:1 on --bg)
+     The teal --acc already clears AA as text (4.91:1 on --bg), so
+     --acc-text simply points at it. ---- */
+  --bg:#FBFAF7;
+  --surface:#FFFFFF;
+  --surface-2:#F4F3EE;
+  --ink:#1B1A2B;
+  --ink-2:#4B4A63;
+  --ink-3:#6E6D83;
+  --line:rgba(27,26,43,.14);
+  --line-2:rgba(27,26,43,.09);
+  --grid:rgba(27,26,43,.05);
+  --hub:#6A5AE0;
+  --focus:#1B1266;
+  --acc:#0E7C66;
+  --acc-text:#0E7C66;
+  --acc-tint:#E3F1EC;
+  --radius:10px;
+}
+
+[data-theme="dark"]{
+  color-scheme:dark;
+  --civica-mark:#86acda;
+  --civica-rule:rgba(134,172,218,.26);
+  --on-mark:#0C0B16;
+
+  --bg:#0C0B16;
+  --surface:#15142A;
+  --surface-2:#1B1A33;
+  --ink:#F4F3FC;
+  --ink-2:#C3C1DB;
+  --ink-3:#8E8CAA;
+  --line:rgba(255,255,255,.15);
+  --line-2:rgba(255,255,255,.08);
+  --grid:rgba(190,185,255,.07);
+  --hub:#9384FF;
+  --focus:#C9BEFF;
+  --acc:#4FCFB6;
+  --acc-text:#4FCFB6;
+  --acc-tint:#10322A;
+}
+
+*{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; }
+@media (prefers-reduced-motion:reduce){
+  *{ animation-duration:.001ms !important; transition-duration:.001ms !important; }
+  html{ scroll-behavior:auto; }
+}
+
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:var(--font-display);
+  font-size:17px;            /* explicit base — nothing below 12px anywhere */
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+  transition:background .4s ease, color .4s ease;
+}
+
+a{ color:var(--acc-text); text-underline-offset:3px; }
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible, summary:focus-visible{
+  outline:3px solid var(--focus); outline-offset:2px; border-radius:3px;
+}
+.sr-only{
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0;
+}
+
+/* ---------- CIVICA chrome ---------- */
+.skip-link{
+  position:absolute; left:12px; top:-4rem; z-index:100;
+  background:var(--civica-mark); color:var(--on-mark);
+  font-weight:700; font-size:15px; padding:11px 18px; border-radius:10px; text-decoration:none;
+  transition:top .2s ease;
+}
+.skip-link:focus{ top:12px; }
+.civica-bar{ border-bottom:1px solid var(--line); }
+.civica-bar > div{
+  max-width:800px; margin:0 auto; padding:14px 1.5rem;
+  display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+}
+.civica-mark{ display:flex; flex-direction:column; gap:2px; text-decoration:none; line-height:1; }
+/* PLACEHOLDER WORDMARK — the CIVICA logo is set in Movement (licensed, NM Type)
+   and cannot be embedded. Swap the two spans for the official transparent SVG
+   once one is available. */
+.civica-wordmark{ font-weight:900; font-size:18px; letter-spacing:.06em; color:var(--civica-mark); }
+.civica-sub{ font-weight:600; font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3); }
+.ctl{
+  font-family:var(--font-display); font-size:14px; font-weight:700; letter-spacing:.03em;
+  background:transparent; color:var(--ink); border:1.5px solid var(--line); border-radius:999px;
+  padding:9px 15px; cursor:pointer; line-height:1; min-height:36px;
+}
+.ctl:hover{ border-color:var(--civica-mark); color:var(--civica-mark); }
+.ctl[aria-pressed="true"][data-lang]{ background:var(--civica-mark); border-color:var(--civica-mark); color:var(--on-mark); }
+.ctl-theme{ display:flex; align-items:center; gap:7px; padding-left:12px; }
+.ctl-theme svg{ width:15px; height:15px; flex-shrink:0; }
+.control-group{ display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; }
+.lang-group{ display:flex; gap:.3rem; }
+
+/* ---------- page ---------- */
+.page{ max-width:800px; margin:0 auto; padding:2rem 1.5rem 5rem; }
+
+header.hero{ position:relative; margin-bottom:2.75rem; padding-top:.5rem; }
+.hero::before{
+  content:""; position:absolute; top:-1.25rem; left:-1.5rem; right:-1.5rem; height:11rem;
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size:28px 28px;
+  mask-image:linear-gradient(to bottom, #000 55%, transparent 100%);
+  -webkit-mask-image:linear-gradient(to bottom, #000 55%, transparent 100%);
+  pointer-events:none; z-index:0;
+}
+.hero > *{ position:relative; z-index:1; }
+
+.eyebrow{
+  font-weight:900; font-size:13px; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--ink-3); margin:0 0 1rem; display:flex; align-items:center; gap:.65rem; flex-wrap:wrap;
+}
+.eyebrow .mark{ flex-shrink:0; width:30px; height:15px; }
+.eyebrow .series{ color:var(--hub); }
+.eyebrow::after{
+  content:""; flex:1; min-width:2rem; height:1.5px;
+  background:linear-gradient(90deg, color-mix(in srgb, var(--acc) 55%, transparent), transparent);
+}
+h1{
+  font-weight:900; font-size:clamp(2rem, 4.8vw, 2.9rem); line-height:1.08; letter-spacing:-.02em;
+  margin:0 0 1.1rem; text-wrap:balance;
+}
+.lede{ font-size:19px; color:var(--ink-2); max-width:640px; margin:0 0 1.5rem; }
+
+.series-quote{
+  border-left:3px solid var(--hub); padding:.15rem 0 .15rem 1.1rem; max-width:62ch; margin:0 0 2.5rem;
+}
+.series-quote p{ margin:0; font-weight:700; font-size:20px; line-height:1.4; color:var(--ink); }
+
+h2{ font-weight:700; font-size:20px; margin:0 0 1.4rem; color:var(--acc-text); line-height:1.3; }
+section{ margin-bottom:2.75rem; }
+p{ margin:0 0 1rem; max-width:70ch; }
+
+.takeaways{ list-style:none; margin:0; padding:0; display:grid; gap:1.05rem; }
+.takeaways > li{ max-width:68ch; }
+.takeaways strong{ color:var(--ink); font-weight:700; }
+.takeaways ul{ list-style:none; margin:.2rem 0 0; padding:0 0 0 2.65rem; display:grid; gap:.5rem; }
+.takeaways ul li{ position:relative; padding-left:1.3rem; color:var(--ink-2); }
+.takeaways ul li::before{
+  content:""; position:absolute; left:0; top:.65em; width:5px; height:5px; border-radius:50%; background:var(--acc);
+}
+/* Each take-away is a native checkbox + label: keyboard and screen-reader
+   support for free, and the tick is a shape, not only a colour. */
+.pick{
+  display:flex; gap:.8rem; align-items:flex-start; cursor:pointer;
+  padding:.65rem .85rem; margin-left:-.85rem; border-radius:var(--radius);
+  border:1.5px solid transparent;
+}
+.pick:hover{ background:var(--surface-2); }
+.pick input{
+  flex-shrink:0; width:22px; height:22px; margin:.2rem 0 0; cursor:pointer;
+  accent-color:var(--acc-text);
+}
+.pick input:focus-visible{ outline:3px solid var(--focus); outline-offset:2px; }
+.pick:has(input:checked){ background:var(--acc-tint); border-color:color-mix(in srgb, var(--acc) 45%, transparent); }
+.pick-intro{ color:var(--ink-2); margin:-.6rem 0 1.2rem; }
+.pick-bar{ display:flex; flex-wrap:wrap; gap:.6rem; align-items:center; margin-top:1.4rem; }
+.pick-btn{
+  font-family:var(--font-display); font-size:15px; font-weight:700; line-height:1.2;
+  background:var(--surface); color:var(--ink); border:1.5px solid var(--line);
+  border-radius:999px; padding:.55rem 1rem; min-height:40px; cursor:pointer;
+}
+.pick-btn:hover{ border-color:var(--ink-3); }
+.pick-primary{ background:var(--civica-mark); border-color:var(--civica-mark); color:var(--on-mark); }
+.pick-count{ font-weight:700; color:var(--ink-2); }
+.pick-err{ min-height:1.2em; margin:.6rem 0 0; font-weight:700; color:var(--acc-text); }
+
+.crosslink{
+  display:inline-flex; align-items:center; gap:.5rem;
+  border:1px solid var(--line); border-radius:999px; padding:.55rem 1.1rem;
+  font-size:15px; font-weight:700; color:var(--ink-2); background:var(--surface);
+  text-decoration:underline; text-decoration-color:var(--line); text-underline-offset:3px;
+}
+.crosslink:hover{ border-color:var(--acc-text); color:var(--acc-text); }
+.crosslink svg{ width:15px; height:15px; flex-shrink:0; }
+
+/* ---------- footer + CIVICA attribution ---------- */
+footer{
+  margin-top:3rem; border-top:1px solid var(--line-2); padding-top:1.6rem;
+  color:var(--ink-2); font-size:16px; line-height:1.7;
+}
+.attribution{
+  padding-top:.2rem;
+  display:grid; gap:.45rem; font-size:14px; max-width:64ch; color:var(--ink);
+}
+.attr-value{ flex:1 1 18rem; min-width:0; }
+.attr-line{ display:flex; flex-wrap:wrap; align-items:baseline; gap:.2rem .55rem; margin:0; }
+.attr-label{
+  font-weight:900; font-size:12px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--civica-mark); flex:0 0 7.5rem;
+}
+.attribution a{ color:var(--ink); text-decoration-color:var(--civica-rule); }
+.attr-role{ color:var(--ink-3); font-size:13px; }
+.attr-funding{ margin:.5rem 0 0; font-size:13px; color:var(--ink-3); }
+
+@media (max-width:600px){
+  .attr-label{ flex:1 0 100%; }
+  .civica-sub{ display:none; }
+  .page{ padding:1.5rem 1.1rem 4rem; }
+  .hero::before{ left:-1.1rem; right:-1.1rem; }
+}
+@media print{
+  .civica-bar, .skip-link{ display:none !important; }
+  body{ background:#fff; color:#000; }
+  .hero::before{ display:none; }
+  /* Print only the take-aways the reader ticked, plus title and attribution. */
+  .pick-bar, .pick-err, .pick-intro, .crosslink{ display:none !important; }
+  body.has-picks .takeaways > li:not(.is-picked){ display:none; }
+  .pick, .pick:has(input:checked){ background:none; border:0; margin-left:0; padding:.3rem 0; }
+  .pick input{ display:none; }
+  .takeaways > li{ padding-left:1.15rem; position:relative; break-inside:avoid; }
+  .takeaways > li::before{ content:"✓"; position:absolute; left:0; top:.3rem; font-weight:900; }
+  .takeaways ul{ padding-left:1.15rem; }
+}
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main" id="t-skip"></a>
+
+<div class="civica-bar">
+  <div>
+    <!-- PLACEHOLDER: swap for the official transparent CIVICA SVG if available. -->
+    <a class="civica-mark" href="https://www.civica.eu/" target="_blank" rel="noopener noreferrer" id="t-mark">
+      <span class="civica-wordmark" aria-hidden="true">CIVICA</span>
+      <span class="civica-sub" id="t-mark-sub" aria-hidden="true"></span>
+    </a>
+    <div class="control-group">
+      <div role="group" id="lang-group" class="lang-group">
+        <button type="button" class="ctl" data-lang="en" lang="en" aria-pressed="true">EN</button>
+        <button type="button" class="ctl" data-lang="es" lang="es" aria-pressed="false">ES</button>
+        <button type="button" class="ctl" data-lang="de" lang="de" aria-pressed="false">DE</button>
+      </div>
+      <button type="button" class="ctl ctl-theme" id="theme-btn" aria-pressed="false">
+        <span id="theme-icon" aria-hidden="true"></span>
+        <span id="theme-label"></span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main class="page" id="main">
+
+  <header class="hero">
+    <p class="eyebrow">
+      <svg class="mark" viewBox="0 0 46 24" aria-hidden="true" focusable="false">
+        <circle cx="16" cy="12" r="8" fill="none" stroke="var(--hub)" stroke-width="2.6"/>
+        <circle cx="30" cy="12" r="8" fill="none" stroke="var(--acc)" stroke-width="2.6"/>
+      </svg>
+      <span><span class="series" id="t-series"></span> · <span id="t-panel"></span></span>
+    </p>
+    <h1 id="t-title"></h1>
+    <p class="lede" id="t-lede"></p>
+  </header>
+
+  <blockquote class="series-quote"><p id="t-quote"></p></blockquote>
+
+  <section aria-labelledby="takeaways-heading">
+    <h2 id="takeaways-heading"></h2>
+    <p class="pick-intro" id="t-pick-intro"></p>
+    <ul class="takeaways" id="takeaways"></ul>
+    <div class="pick-bar">
+      <button type="button" class="pick-btn pick-primary" id="pick-print"></button>
+      <button type="button" class="pick-btn" id="pick-clear"></button>
+      <span class="pick-count" id="pick-count"></span>
+    </div>
+    <p class="pick-err" id="pick-err" role="alert"></p>
+  </section>
+
+  <a class="crosslink" id="crosslink">
+    <span id="t-crosslink"></span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+  </a>
+
+  <footer>
+    <!-- ===== CIVICA attribution — mirrors the JSON-LD in <head> ===== -->
+    <div class="attribution">
+      <p class="attr-line">
+        <span class="attr-label" id="t-lbl-author"></span>
+        <span>Maria Uttenthal <span class="attr-role">Hertie School</span></span>
+      </p>
+      <p class="attr-line" id="published-line" hidden>
+        <span class="attr-label" id="t-lbl-published"></span>
+        <time id="published-date"></time>
+      </p>
+      <p class="attr-line">
+        <span class="attr-label" id="t-lbl-part"></span>
+        <a href="https://www.civica.eu/" target="_blank" rel="noopener noreferrer">Teaching and Learning with CIVICA<span class="sr-only" id="t-newtab-1"></span></a>
+      </p>
+      <p class="attr-line">
+        <span class="attr-label" id="t-lbl-licence"></span>
+        <span id="t-licence" class="attr-value"></span>
+      </p>
+      <p class="attr-funding" id="t-funding"></p>
+    </div>
+  </footer>
+</main>
+
+<p class="sr-only" aria-live="polite" id="live"></p>
+<script>
+/* ===== Publication date =========================================
+   Confirmed by the author. Keep in sync with data-lo-published and
+   the JSON-LD datePublished in <head>.
+   ================================================================ */
+const PUBLISHED = "2026-08-24";
+
+/* ===== Series link ==============================================
+   Link to the sibling resource in this series (learning-with-adhd.html).
+   It only resolves if both objects are hosted together (portal
+   Convention B). Under one-repo-per-object hosting, replace it with
+   the sibling's absolute URL once deployed. Empty = link hidden.
+   ================================================================ */
+const SERIES_LINK = "learning-with-adhd.html";
+
+const esc  = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+/* Restricted markup: **bold** only. Escaped first. */
+const rich = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+const $ = id => document.getElementById(id);
+const setText = (id, s) => { $(id).textContent = s; };
+
+/* ===== Language packs ===========================================
+   EN is the author's text, verbatim.
+   ES and DE are DRAFT translations awaiting the author's sign-off.
+   All three carry an identical key set.
+   ================================================================ */
+const LANGS = {};
+
+LANGS.en = {
+  docTitle: "Learning with dyslexia and dyscalculia — alumni panel takeaways | CIVICA",
+  skip: "Skip to content",
+  markLabel: "CIVICA — Teaching and Learning (opens in a new tab)",
+  markSub: "Teaching & Learning",
+  langGroup: "Language",
+  themeToDark: "Dark", themeToLight: "Light",
+  themeToDarkLabel: "Switch to dark mode", themeToLightLabel: "Switch to light mode",
+  newTab: " (opens in a new tab)",
+
+  series: "Event series on neurodiversity",
+  panel: "Alumni panel",
+  title: "Learning with dyslexia and dyscalculia",
+  lede: "These take-aways come from an alumni panel on learning with dyslexia and dyscalculia — people who've lived it, sharing what actually helped them.",
+  quote: "Learning differences don't define your weaknesses. They define your strengths.",
+  takeawaysH: "Key take-aways",
+  takeaways: [
+    "Having dyslexia or dyscalculia means you're good at seeing **patterns, associations, and systems** — you can make things fit together, like a puzzle.",
+    "Minutiae can be difficult, but you can **see the bigger picture better than most**. This is a key strength.",
+    {"text": "**Visualisation helps.** Use mind-maps, drawings, and colour-coded notes.", "sub": ["Make **drawings** of key concepts in your courses.", "Use visualisation as a **memory technique**.", "Use **visual time management** — write down your deadlines and track progress with colour, e.g. green / yellow / red."]},
+    {"text": "Be open about it and **ask for help**.", "sub": ["Consider simply including it in your email signature."]},
+    "**Speech-to-text** can be a helpful tool: dictate your writing instead of typing it.",
+    "Dyslexia and dyscalculia don't say anything about your intelligence or ability — it's simply **how your brain processes information**."
+  ],
+  pickIntro: "Tick the take-aways that fit you, then print your list.",
+  pickPrint: "Print my take-aways", pickClear: "Clear selection",
+  pickCount: "{n} of {total} selected",
+  pickNone: "Tick at least one take-away first.",
+  crosslink: "Also in this series: learning with ADHD",
+
+  lblAuthor: "Author", lblPublished: "Published", lblPart: "Part of", lblLicence: "Licence",
+  licence: "This work is licensed under {link}, except where otherwise noted.",
+  funding: "Co-funded by the European Union"
+};
+
+LANGS.es = {
+  docTitle: "Aprender con dislexia y discalculia: ideas clave de un panel de alumni | CIVICA",
+  skip: "Ir al contenido",
+  markLabel: "CIVICA — Docencia y aprendizaje (se abre en una pestaña nueva)",
+  markSub: "Docencia y aprendizaje",
+  langGroup: "Idioma",
+  themeToDark: "Oscuro", themeToLight: "Claro",
+  themeToDarkLabel: "Cambiar al modo oscuro", themeToLightLabel: "Cambiar al modo claro",
+  newTab: " (se abre en una pestaña nueva)",
+
+  series: "Ciclo de eventos sobre neurodiversidad",
+  panel: "Panel de alumni",
+  title: "Aprender con dislexia y discalculia",
+  lede: "Estas ideas clave proceden de un panel de alumni sobre aprender con dislexia y discalculia: personas que lo han vivido y comparten lo que de verdad les ayudó.",
+  quote: "Las diferencias de aprendizaje no definen tus debilidades. Definen tus fortalezas.",
+  takeawaysH: "Ideas clave",
+  takeaways: [
+    "Tener dislexia o discalculia significa que se te da bien ver **patrones, asociaciones y sistemas**: sabes hacer que las cosas encajen, como en un puzle.",
+    "Los detalles minuciosos pueden resultar difíciles, pero sabes **ver el panorama general mejor que la mayoría**. Es una fortaleza clave.",
+    {"text": "**Visualizar ayuda.** Usa mapas mentales, dibujos y apuntes con códigos de colores.", "sub": ["Haz **dibujos** de los conceptos clave de tus asignaturas.", "Usa la visualización como **técnica de memoria**.", "Usa una **gestión visual del tiempo**: apunta tus plazos y sigue tu progreso con colores, por ejemplo verde / amarillo / rojo."]},
+    {"text": "Habla de ello con naturalidad y **pide ayuda**.", "sub": ["Plantéate, sin más, incluirlo en tu firma de correo electrónico."]},
+    "La **conversión de voz a texto** puede ser una herramienta útil: dicta tus textos en lugar de teclearlos.",
+    "La dislexia y la discalculia no dicen nada sobre tu inteligencia ni tu capacidad: es simplemente **la forma en que tu cerebro procesa la información**."
+  ],
+  pickIntro: "Marca las ideas clave que encajan contigo y luego imprime tu lista.",
+  pickPrint: "Imprimir mis ideas clave", pickClear: "Borrar selección",
+  pickCount: "{n} de {total} seleccionadas",
+  pickNone: "Marca al menos una idea clave primero.",
+  crosslink: "También en este ciclo: aprender con TDAH",
+
+  lblAuthor: "Autoría", lblPublished: "Publicado", lblPart: "Forma parte de", lblLicence: "Licencia",
+  licence: "Esta obra está bajo una licencia {link}, salvo que se indique lo contrario.",
+  funding: "Cofinanciado por la Unión Europea"
+};
+
+LANGS.de = {
+  docTitle: "Lernen mit Legasthenie und Dyskalkulie – Erkenntnisse aus einem Alumni-Panel | CIVICA",
+  skip: "Zum Inhalt springen",
+  markLabel: "CIVICA — Lehren und Lernen (öffnet in neuem Tab)",
+  markSub: "Lehren & Lernen",
+  langGroup: "Sprache",
+  themeToDark: "Dunkel", themeToLight: "Hell",
+  themeToDarkLabel: "Zum dunklen Modus wechseln", themeToLightLabel: "Zum hellen Modus wechseln",
+  newTab: " (öffnet in neuem Tab)",
+
+  series: "Veranstaltungsreihe zu Neurodiversität",
+  panel: "Alumni-Panel",
+  title: "Lernen mit Legasthenie und Dyskalkulie",
+  lede: "Diese Erkenntnisse stammen aus einem Alumni-Panel zum Lernen mit Legasthenie und Dyskalkulie – von Menschen, die es selbst erlebt haben und teilen, was ihnen wirklich geholfen hat.",
+  quote: "Lernunterschiede bestimmen nicht deine Schwächen. Sie bestimmen deine Stärken.",
+  takeawaysH: "Wichtigste Erkenntnisse",
+  takeaways: [
+    "Legasthenie oder Dyskalkulie zu haben bedeutet, dass du gut darin bist, **Muster, Zusammenhänge und Systeme** zu erkennen – du kannst Dinge zusammenfügen wie ein Puzzle.",
+    "Details können schwierig sein, aber du **siehst das große Ganze besser als die meisten**. Das ist eine zentrale Stärke.",
+    {"text": "**Visualisierung hilft.** Nutze Mindmaps, Zeichnungen und farbcodierte Notizen.", "sub": ["Fertige **Zeichnungen** der zentralen Konzepte deiner Kurse an.", "Nutze Visualisierung als **Gedächtnistechnik**.", "Nutze **visuelles Zeitmanagement** – schreib deine Fristen auf und verfolge deinen Fortschritt mit Farben, z. B. Grün / Gelb / Rot."]},
+    {"text": "Geh offen damit um und **bitte um Hilfe**.", "sub": ["Du könntest es auch einfach in deine E-Mail-Signatur aufnehmen."]},
+    "**Spracheingabe** kann ein hilfreiches Werkzeug sein: Diktiere deine Texte, statt sie zu tippen.",
+    "Legasthenie und Dyskalkulie sagen nichts über deine Intelligenz oder deine Fähigkeiten aus – es ist einfach die Art, **wie dein Gehirn Informationen verarbeitet**."
+  ],
+  pickIntro: "Hake die Erkenntnisse ab, die zu dir passen, und drucke dann deine Liste.",
+  pickPrint: "Meine Erkenntnisse drucken", pickClear: "Auswahl löschen",
+  pickCount: "{n} von {total} ausgewählt",
+  pickNone: "Hake zuerst mindestens eine Erkenntnis ab.",
+  crosslink: "Ebenfalls in dieser Reihe: Lernen mit ADHS",
+
+  lblAuthor: "Autor:in", lblPublished: "Veröffentlicht", lblPart: "Teil von", lblLicence: "Lizenz",
+  licence: "Dieses Werk ist lizenziert unter {link}, sofern nicht anders angegeben.",
+  funding: "Kofinanziert von der Europäischen Union"
+};
+
+let lang = "en";
+const L = () => LANGS[lang];
+const fill = (s, v) => s.replace(/\{(\w+)\}/g, (_, k) => v[k]);
+
+/* ===== Pick-your-take-aways =====================================
+   Not persisted: objects are embedded in the portal, and state
+   belongs there. Selection survives a language switch.
+   ================================================================ */
+const picked = new Set();
+function updatePickCount(){
+  $("pick-count").textContent = fill(L().pickCount, { n: picked.size, total: L().takeaways.length });
+  document.body.classList.toggle("has-picks", picked.size > 0);
+}
+
+const LICENCE_URL = "https://creativecommons.org/licenses/by-nc-sa/4.0/";
+const LICENCE_NAME = "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)";
+
+function applyLanguage(code){
+  lang = code;
+  const T = LANGS[code];
+  document.documentElement.lang = code;
+  document.title = T.docTitle;
+
+  setText("t-skip", T.skip);
+  $("t-mark").setAttribute("aria-label", T.markLabel);
+  setText("t-mark-sub", T.markSub);
+  $("lang-group").setAttribute("aria-label", T.langGroup);
+
+  setText("t-series", T.series);
+  setText("t-panel", T.panel);
+  setText("t-title", T.title);
+  setText("t-lede", T.lede);
+  setText("t-quote", T.quote);
+  setText("takeaways-heading", T.takeawaysH);
+  setText("t-pick-intro", T.pickIntro);
+  setText("pick-print", T.pickPrint);
+  setText("pick-clear", T.pickClear);
+  $("pick-err").textContent = "";
+  $("takeaways").innerHTML = T.takeaways.map((s, i) => `
+    <li class="${picked.has(i) ? "is-picked" : ""}">
+      <label class="pick"><input type="checkbox" data-i="${i}"${picked.has(i) ? " checked" : ""}><span>${rich(typeof s === "string" ? s : s.text)}</span></label>${
+        typeof s === "string" || !s.sub ? "" : `<ul>${s.sub.map(x => `<li>${rich(x)}</li>`).join("")}</ul>`}
+    </li>`).join("");
+  $("takeaways").querySelectorAll("input").forEach(cb => cb.addEventListener("change", () => {
+    const i = Number(cb.dataset.i);
+    cb.checked ? picked.add(i) : picked.delete(i);
+    cb.closest("li").classList.toggle("is-picked", cb.checked);
+    $("pick-err").textContent = "";
+    updatePickCount();
+  }));
+  updatePickCount();
+
+  const cl = $("crosslink");
+  if (SERIES_LINK){ cl.setAttribute("href", SERIES_LINK); cl.hidden = false; }
+  else { cl.removeAttribute("href"); cl.hidden = true; }
+  setText("t-crosslink", T.crosslink);
+
+  setText("t-lbl-author", T.lblAuthor);
+  setText("t-lbl-published", T.lblPublished);
+  setText("t-lbl-part", T.lblPart);
+  setText("t-lbl-licence", T.lblLicence);
+  setText("t-newtab-1", T.newTab);
+  const link = `<a href="${LICENCE_URL}" target="_blank" rel="noopener noreferrer license">${esc(LICENCE_NAME)}<span class="sr-only">${esc(T.newTab)}</span></a>`;
+  $("t-licence").innerHTML = esc(T.licence).replace("{link}", link);
+  setText("t-funding", T.funding);
+
+  if (PUBLISHED){
+    const el = $("published-date");
+    el.setAttribute("datetime", PUBLISHED);
+    el.textContent = new Intl.DateTimeFormat(code === "en" ? "en-GB" : code, {
+      day:"numeric", month:"long", year:"numeric", timeZone:"UTC"
+    }).format(new Date(PUBLISHED + "T12:00:00Z"));
+    $("published-line").hidden = false;
+  }
+
+  document.querySelectorAll("[data-lang]").forEach(b =>
+    b.setAttribute("aria-pressed", String(b.dataset.lang === code)));
+  updateThemeButton();
+}
+
+/* ---- theme ---- */
+const SUN = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 1.8v2.4M12 19.8v2.4M4.6 4.6l1.7 1.7M17.7 17.7l1.7 1.7M1.8 12h2.4M19.8 12h2.4M4.6 19.4l1.7-1.7M17.7 6.3l1.7-1.7"/></svg>`;
+const MOON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.6A8.6 8.6 0 1 1 9.4 3.5a7 7 0 0 0 11.1 11.1z"/></svg>`;
+function updateThemeButton(){
+  const dark = document.documentElement.dataset.theme === "dark";
+  $("theme-icon").innerHTML = dark ? SUN : MOON;
+  $("theme-label").textContent = dark ? L().themeToLight : L().themeToDark;
+  $("theme-btn").setAttribute("aria-pressed", String(dark));
+  $("theme-btn").setAttribute("aria-label", dark ? L().themeToLightLabel : L().themeToDarkLabel);
+}
+$("theme-btn").addEventListener("click", () => {
+  const dark = document.documentElement.dataset.theme === "dark";
+  document.documentElement.dataset.theme = dark ? "light" : "dark";
+  updateThemeButton();
+});
+document.querySelectorAll("[data-lang]").forEach(b =>
+  b.addEventListener("click", () => applyLanguage(b.dataset.lang)));
+
+$("pick-print").addEventListener("click", () => {
+  if (!picked.size){ $("pick-err").textContent = L().pickNone; return; }
+  if (typeof window.print === "function") window.print();
+});
+$("pick-clear").addEventListener("click", () => {
+  picked.clear();
+  $("takeaways").querySelectorAll("input").forEach(cb => { cb.checked = false; cb.closest("li").classList.remove("is-picked"); });
+  $("pick-err").textContent = "";
+  updatePickCount();
+  const first = $("takeaways").querySelector("input");
+  if (first) first.focus();
+});
+
+/* Feature-detect: matchMedia is undefined in some embedded contexts. */
+if (typeof window.matchMedia === "function" &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches){
+  document.documentElement.dataset.theme = "dark";
+}
+applyLanguage("en");
+</script>
+
+</body>
+</html>
